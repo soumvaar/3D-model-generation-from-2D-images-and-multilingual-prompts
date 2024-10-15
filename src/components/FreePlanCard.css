@@ -1,0 +1,76 @@
+.FreePlan {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  display: flex;
+  flex-direction: column;
+  background-color: #5d576b;
+  border-radius: 10px;
+  padding-top: 20px;
+  width: 17vw;
+  transition: height 0.3s ease-out, transform 0.3s ease-out;
+  height: 60vh;
+}
+
+.FreePlan:hover {
+  transform: scale(1.1);
+}
+
+#PriceContent {
+  display: flex;
+  align-items: baseline;
+  column-gap: 3px;
+  margin-top: 20px;
+}
+
+#DollarSignPos {
+  font-size: 1em;
+}
+
+#PriceToBePaid {
+  font-size: 3em;
+}
+
+.FreePlan h4 {
+  color: white;
+  font-size: 2em;
+}
+
+.FreePlan p {
+  color: white;
+  font-size: 1em;
+}
+
+#PlanParagraphs {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#PlanHeading {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cardContent
+{
+  padding: 20px;
+
+}
+.ButtonContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.ButtonContainer button {
+  background-color: #fff;
+  color: #f79d65;
+  border: 2px black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  /* transition: transform 0.3s ease-out; */
+}
+
